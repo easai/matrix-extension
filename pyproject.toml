@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "matrix-extension"
+version = "0.1.0"
+description = ""
+authors = ["easai <aksarih@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+sympy = "^1.13.3"
+notebook = "^7.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
